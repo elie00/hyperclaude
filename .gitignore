@@ -1,0 +1,127 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+pytest-coverage.txt
+coverage.xml
+*.cover
+.cache
+nosetests.xml
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Linting
+.ruff_cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project-specific
+servers/          # Generated wrappers (regenerate with mcp-generate)
+workspace/        # User scripts (gitignored for privacy)
+discovery_config.json  # May contain sensitive test data
+
+# Note: mcp_config.json is tracked as an example config with ${VAR} placeholders
+# Users can also create .mcp.json (Claude Code convention) which takes priority
+
+# Logs and temporary files
+*.log
+*.pid
+*.seed
+*.pid.lock
+.env.local
+.env.*.local
+
+# OS-specific
+Thumbs.db
+Desktop.ini
+
+# Secrets and credentials
+*.pem
+*.key
+*.cert
+*secret*
+*password*
+.secrets/
+
+# Editor backup files
+*.bak
+*.tmp
+*.temp
+
+# uv specific
+# uv.lock included in repo for reproducibility
+
+# Claude reasoning data (local only, per-developer)
+.git/claude/
+
+# Claude cache (async results, temp data, agent outputs)
+.claude/cache/
+.claude/tsc-cache/
+
+# Node modules in hooks (dev deps only)
+.claude/hooks/node_modules/
+
+# Include bundled hooks (zero-dep runtime)
+!.claude/hooks/dist/
+
+# Continuity ledgers (session-specific, not shared)
+CONTINUITY_CLAUDE-*
+
+# Thoughts directory (user-specific research and plans)
+thoughts/
+!thoughts/shared/
+!thoughts/shared/.gitkeep
+!thoughts/shared/plans/.gitkeep
+!thoughts/shared/research/.gitkeep
+!thoughts/shared/handoffs/.gitkeep
+package.json
+pnpm-lock.yaml
+node_modules/
+workspace/
+.claude/settings.local.json
