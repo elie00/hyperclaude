@@ -96,13 +96,10 @@
       ],
       "disabled": false
     },
-    "model-orchestrator": {
+    "glm-orchestrator": {
       "type": "stdio",
-      "command": "/Users/eybo/PycharmProjects/model-orchestrator/target/release/model-orchestrator",
-      "args": [],
-      "env": {
-        "ZAI_API_KEY": "${ZAI_API_KEY}"
-      }
+      "command": "/Users/eybo/PycharmProjects/glm-orchestrator/target/release/glm-orchestrator",
+      "args": []
     }
   }
 }
