@@ -98,7 +98,7 @@
     },
     "glm-orchestrator": {
       "type": "stdio",
-      "command": "/Users/eybo/PycharmProjects/glm-orchestrator/target/release/glm-orchestrator",
+      "command": "rust/glm-orchestrator/target/release/glm-orchestrator",
       "args": []
     }
   }

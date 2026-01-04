@@ -51,7 +51,7 @@ async def main():
     
     # Initialize MCP client
     manager = McpClientManager()
-    manager.initialize()
+    await manager.initialize()
     
     # Call the GLM generate tool
     params = {"prompt": args.prompt}
